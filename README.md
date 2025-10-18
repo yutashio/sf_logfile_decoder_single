@@ -1,4 +1,7 @@
-# Salesforce イベントログ Base64 シンプルデコードツール
+# Salesforce イベントログ Base64 デコードツール（1件処理版）
+
+> [!NOTE]
+> 1件分の Event Log の Base64 文字列をCSVに変換するためのシンプルなツールです。
 
 **SalesforceのEvent Log File**の  `LogFile` 項目に格納された **Base64 文字列**をデコードし、人間が読める文章＆CSV形式に変換するためのシンプルなPythonスクリプトを作成してみました。  
 
