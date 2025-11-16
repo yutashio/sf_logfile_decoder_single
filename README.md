@@ -7,7 +7,7 @@
 
 ## はじめに
 
-SalesforceのEvent Log File を**Data Loader を使用して一括でダウンロード**しました。  
+SalesforceのEvent Log File をData Loader を使用して一括でダウンロードしました。  
 
 しかし、Data Loaderで出力される `EventLogFile`の`LogFile`項目は**Base64 形式でエンコードされており**、そのままでは中身を確認することができません。  
 
